@@ -1,0 +1,12 @@
+.wrapper {
+  background-color: rgb(201, 201, 249);
+  padding: 1.5rem;
+}
+
+.content {
+  display: flex;
+}
+
+.list {
+  margin: 0 2rem;
+}
