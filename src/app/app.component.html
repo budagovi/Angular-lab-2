@@ -3,6 +3,7 @@
   <div class="content">
     <app-user (passListEvent)="addItem($event)"/>
     <div class="list">
+      <b>Users:</b>
       <ul *ngFor="let user of list">
         <li>
           {{user.firstname || 'Luka'}} 
